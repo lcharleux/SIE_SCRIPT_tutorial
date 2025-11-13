@@ -35,13 +35,13 @@ header:
     show_search: true
     show_theme_chooser: true
     logo:
-      text: "Digital Skills for the Modern PhD"
+      text: "SCRIPT — Scientific Computing & Reproducible IT Practices and Tools"
       filename: "logos/usmb.png"
 
 # Site footer
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} L. Charleux and C. Elmo. This work is licensed under {license}'
     license:
       enable: true
       allow_derivatives: false
