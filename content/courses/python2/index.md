@@ -1,6 +1,6 @@
 ---
 title: "Python 2/2 — Advanced Tools and Best Practices"
-date: "2025-10-26"
+date: "2025-12-27"
 publishDate: "2025-09-01"
 links:
   - type: site
