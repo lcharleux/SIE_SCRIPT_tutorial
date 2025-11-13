@@ -1,2 +1,4 @@
-# SIE formation Pack d’Apprentissage Numérique pour Doctorant Astucieux (PANDA)
+# SCRIPT — Scientific Computing & Reproducible IT Practices and Tools
+
+
 
