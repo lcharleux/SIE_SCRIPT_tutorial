@@ -12,63 +12,53 @@ authors:
 
 ---
 
-Welcome to our modular training series for PhD students, focused on the essential digital tools every researcher should master. Whether you’re writing a thesis, analyzing data, or managing code, these hands‑on sessions help you build solid foundations — at your own pace.
+This modular training series supports doctoral researchers in developing core competencies for rigorous, efficient, and reproducible research workflows. The modules integrate scholarly writing (LaTeX), version control (Git), scientific programming (Python), and reproducible execution environments (Docker). Participants may complete the full sequence or select modules aligned with their research needs.
 
-We’ve designed a progressive and flexible path, so you can stop when you’ve covered what you need, or continue deeper if you want to expand your skills.
+—
 
-⸻
+Recommended sequence
 
-📄 Step 1: [LaTeX]({{< relref "courses/latex/index.md" >}})
+- Block 1: [LaTeX]({{< relref "courses/latex/index.md" >}})
+- Block 2: [Git]({{< relref "courses/git/index.md" >}})
+- Block 3: [Python 1/2]({{< relref "courses/python1/index.md" >}})
+- Block 4: [Docker]({{< relref "courses/docker/index.md" >}})
+- Block 5: [Python 2/2]({{< relref "courses/python2/index.md" >}})
 
-➡️ You can stop here if this covers your needs — or continue to strengthen your skills.
+Participants may enroll in any subset of modules. The above progression is recommended for coherence; Python 2/2 assumes familiarity with the material from Python 1/2.
 
+—
 
-🔄 Step 2: [GIT]({{< relref "courses/git/index.md" >}})
-
-
-
-🐍 Step 3: [Python 1/2]({{< relref "courses/python1/index.md" >}})
-
-➡️ You can stop here if this covers your needs — or continue to strengthen your skills.
-
-
-
-🐳 Step 4: [Docker]({{< relref "courses/docker/index.md" >}})
-
-
-🧠 Step 5: [Python 2/2]({{< relref "courses/python2/index.md" >}})
-
-⸻
-
-🧭 Choose Your Own Adventure
+Pathways
 
 ![](workflow.png)
 
-You can:
+Participation options include:
 
--	Take only the sessions you need even if there is progression between them
--	Follow the full track for a complete toolkit
--	Build confidence step by step — no prerequisites
+- Selecting only sessions that address immediate needs
+- Completing the full sequence for a comprehensive toolkit
+- Progressing incrementally at a self‑directed pace
 
-🎓 Who Should Attend?
+—
 
-This series is open to all PhD students, especially those who:
+Intended audience
 
--	Are new to research computing tools
--	Want to adopt best practices from the start
--	Need to improve their workflow for writing, coding, or collaboration
+The series is designed for doctoral candidates who:
 
-⸻
+- Are new to research computing tools
+- Seek to adopt best practices early in the doctoral process
+- Aim to improve workflows for writing, coding, collaboration, and reproducibility
 
-🛠️ Practical Information:
+—
 
--	Format: Hands‑on workshops with real research examples
--	Level: Beginner‑friendly; no prior experience required
--	Bring your laptop with admin permissions — we’ll guide you step by step
+Format and requirements
 
-⸻
+- Format: Applied workshops using research‑relevant examples
+- Level: Introductory; no prior experience required
+- Requirements: A laptop with administrative installation permissions (Windows, macOS, or Linux). Software setup will be guided during sessions.
 
-Have questions or unsure where to begin? Contact us {{% mention "admin" %}} {{% mention "celmo" %}} — we’ll help you design the path that fits your needs.
+—
 
+For guidance on module selection, contact {{% mention "admin" %}} {{% mention "celmo" %}}. We can advise on a path aligned with your research objectives.
 
 <!--more-->
+
