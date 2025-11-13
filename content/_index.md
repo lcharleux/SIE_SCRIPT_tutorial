@@ -94,21 +94,16 @@ sections:
       title: '📚 Why this tutorial ?'
       subtitle: ''
       text: |-
-        Because your future self will thank you.
+        This workshop develops practical competencies in modern research workflows that enhance rigor, transparency, and efficiency. Contemporary scholarship depends on programmable tools and reproducible methods; participants will learn to employ version control ([Git](https://git-scm.com/)), scientific scripting ([Python](https://www.python.org/)), containerization ([Docker](https://www.docker.com/)), and scholarly typesetting ([LaTeX](https://www.latex-project.org/)) to support collaborative and auditable research.
 
-        Sure, you’re here to do research — but research today runs on scripts, systems, and reproducible science. Whether you’re writing a paper, crunching data, or collaborating across continents, knowing your way around tools like Git, Python, Docker, LaTeX, and Typst isn’t just nice — it’s essential.
+        The workshop does not train software engineers. Its objective is to enable doctoral researchers to:
 
-        This workshop isn’t about becoming a full-stack developer. It’s about becoming a confident, independent researcher who can:
+          - Reduce time lost to environment inconsistency and disorganized project structures
+          - Maintain robust version histories and provenance for manuscripts and code (no more `final_v3_revised_REAL_final.tex`)
+          - Collaborate effectively through clear review practices and manageable change tracking
+          - Reuse configurations, automate routine tasks, and streamline analysis-to-publication pipelines
 
-          -	Stop losing hours to broken code or messy folders
-          -	Version your work like a pro (no more `final_v3_revised_REAL_final.tex`)
-          -	Collaborate without chaos
-          -	Reuse your setups, automate the boring stuff, and actually save time
-
-        We’re not here to throw buzzwords at you — we’re here to show you how a minimal, smart digital workflow can make your PhD smoother, more reproducible, and a whole lot less frustrating.
-
-        Come level up.
-        Come get your digital superpowers.
+        Emphasis is placed on a minimal, coherent digital workflow that improves reproducibility and reduces friction in day-to-day research activities throughout the PhD and beyond. Participants will leave with a concise toolkit and evidence-based practices for sustainable, reproducible research.
     design:
       columns: '1'
   
@@ -117,7 +112,7 @@ sections:
       title: 'Doctoral school support'
       subtitle: ''
       text: |
-        This training is organized by the SIE Doctoral School of Université Savoie Mont Blanc (USMB). It is part of SIE’s commitment to equipping doctoral candidates with practical, modern research skills that support rigorous, collaborative, and reproducible work across disciplines. 
+        This training is organized by the [SIE Doctoral School](https://www.univ-smb.fr/edsie/) of [Université Savoie Mont Blanc (USMB)](https://www.univ-smb.fr/). It is part of SIE’s commitment to equipping doctoral candidates with practical, modern research skills that support rigorous, collaborative, and reproducible work across disciplines. 
 
     design:
       columns: '1'
