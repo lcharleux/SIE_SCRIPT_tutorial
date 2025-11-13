@@ -1,5 +1,5 @@
 ---
-title: "Python 1/2 — Programming Essentials for Researchers"
+title: "Block 2:  Python Programming Essentials for Researchers"
 date: "2025-10-26"
 publishDate: "2025-09-01"
 links:
@@ -15,7 +15,7 @@ authors:
 
 You didn’t start a PhD to spend your days copying-pasting in Excel or manually renaming 200 files. You started it to do science — and Python is the tool that lets you focus on thinking, not clicking.
 
-What you’ll learn in Part 1 (Introduction):
+What you’ll learn in Block 2 is:
 
 - Core Python syntax: variables, types, and control flow
 - Essential data structures: lists, dicts, sets, and arrays
