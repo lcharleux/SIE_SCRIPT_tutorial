@@ -10,4 +10,6 @@ view: card
 image:
   caption: ''
   filename: ''
+
+show_date: false
 ---
