@@ -11,6 +11,7 @@ tags:
   - Jupyter
 authors:
   - admin
+  - celmo
 ---
 
 {{% callout note %}}
