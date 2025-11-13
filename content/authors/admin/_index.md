@@ -52,6 +52,7 @@ interests:
   - Numerical modelling
   - Numerical analysis
   - Machine learning
+  - Climbing
 
 education:
   - area: 'Habilitation à Diriger les Recherches (HDR)'
