@@ -1,7 +1,7 @@
 ---
 # Leave the homepage title empty to use the site title
 title: 'Courses'
-publishDate: 2025-09-22
+publishDate: 2026-01-01
 type: landing
 
 design:
