@@ -1,7 +1,7 @@
 ---
 # Leave the homepage title empty to use the site title
 title: 'Teachers'
-date: 2025-01-19
+date: 2026-01-01
 type: landing
 
 design:
