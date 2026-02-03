@@ -12,11 +12,16 @@ authors:
 
 ---
 
-This modular training series supports doctoral researchers in developing core competencies for rigorous, efficient, and reproducible research workflows. The modules integrate scholarly writing (LaTeX), version control (Git), scientific programming (Python), and reproducible execution environments (Docker). Participants may complete the full sequence or select modules aligned with their research needs.
+These workshops help PhD students build a simple, repeatable research workflow. You can follow the full sequence or pick only the modules you need.
 
-—
+We cover:
 
-Recommended sequence
+- LaTeX for writing
+- Git for version control
+- Python for scripting and analysis
+- Docker for running projects the same way on any machine
+
+## Recommended sequence
 
 - Block 1: [LaTeX]({{< relref "courses/latex/index.md" >}})
 - Block 2: [Git]({{< relref "courses/git/index.md" >}})
@@ -24,41 +29,32 @@ Recommended sequence
 - Block 4: [Docker]({{< relref "courses/docker/index.md" >}})
 - Block 5: [Python 2/2]({{< relref "courses/python2/index.md" >}})
 
-Participants may enroll in any subset of modules. The above progression is recommended for coherence; Python 2/2 assumes familiarity with the material from Python 1/2.
+You can enroll in any subset. This order works well because Python 2/2 assumes you’ve seen Python 1/2.
 
-—
-
-Pathways
+## Pathways
 
 ![](workflow.png)
 
-Participation options include:
+You can:
 
-- Selecting only sessions that address immediate needs
-- Completing the full sequence for a comprehensive toolkit
-- Progressing incrementally at a self‑directed pace
+- Take only the sessions you need right now
+- Do the full sequence for a complete toolkit
+- Go step by step at your own pace
 
-—
+## Intended audience
 
-Intended audience
-
-The series is designed for doctoral candidates who:
+This series is for doctoral candidates who:
 
 - Are new to research computing tools
-- Seek to adopt best practices early in the doctoral process
-- Aim to improve workflows for writing, coding, collaboration, and reproducibility
+- Want good habits early in the PhD
+- Want smoother writing, coding, collaboration, and reproducibility
 
-—
+## Format and requirements
 
-Format and requirements
+- Format: Hands-on workshops with research-friendly examples
+- Level: Introductory (no prior experience required)
+- Requirements: A laptop with admin install permissions (Windows, macOS, or Linux). We’ll guide the setup during the sessions.
 
-- Format: Applied workshops using research‑relevant examples
-- Level: Introductory; no prior experience required
-- Requirements: A laptop with administrative installation permissions (Windows, macOS, or Linux). Software setup will be guided during sessions.
-
-—
-
-For guidance on module selection, contact {{% mention "admin" %}} {{% mention "celmo" %}}. We can advise on a path aligned with your research objectives.
+Not sure where to start? Contact {{% mention "admin" %}} {{% mention "celmo" %}} and we’ll help you pick a path that fits your needs.
 
 <!--more-->
-
