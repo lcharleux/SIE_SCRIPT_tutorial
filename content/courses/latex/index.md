@@ -1,17 +1,19 @@
 ---
 title: "Block 1: An introduction to LaTeX for Academic Writing"
-date: "2025-11-26"
-publishDate: "2025-09-01"
+date: "2026-04-27"
+publishDate: "2026-01-01"
 links:
   - type: site
-    url: https://www.latex-project.org/
+    url: https://adum.fr/script/catalogue.pl?mod=3739656&site=USMB
+    name: "Registration for training on Adum"
+
 tags:
   - LaTeX
   - Academic Writing
 authors:
   - admin
   - celmo
-show_date: false
+show_date: true
 ---
 
 

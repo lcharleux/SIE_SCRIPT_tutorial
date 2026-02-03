@@ -1,16 +1,19 @@
 ---
 title: "Block 4: Docker for Reproducible Research Environments"
-date: "2025-10-26"
-publishDate: "2025-09-01"
+date: "2026-05-12"
+publishDate: "2026-01-01"
 links:
   - type: site
-    url: https://www.docker.com/
+    url: https://adum.fr/script/catalogue.pl?mod=3739713&site=USMB
+    name: "Registration for training on Adum"
 tags:
   - Docker
   - Python
   - GIT
 authors:
   - celmo
+  - admin
+show_date: true
 ---
 
 Containerization enables portable, isolated computational environments that improve the reproducibility, transparency, and longevity of research. This module introduces Docker for constructing, executing, and sharing environments that consistently reproduce analyses across machines and over time.

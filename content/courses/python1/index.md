@@ -1,10 +1,11 @@
 ---
 title: "Block 3:  Introduction to Scientific Python"
-date: "2025-10-26"
-publishDate: "2025-09-01"
+date: "2026-05-07"
+publishDate: "2026-01-01"
 links:
   - type: site
-    url: https://www.python.org/
+    url: https://adum.fr/script/catalogue.pl?mod=3739696&site=USMB
+    name: "Registration for training on Adum"
 tags:
   - Python
   - Git
@@ -12,6 +13,7 @@ tags:
 authors:
   - admin
   - celmo
+show_date: true
 ---
 
 {{% callout note %}}

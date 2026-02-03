@@ -1,16 +1,18 @@
 ---
 title: "Block 2: Managing projects with Git "
-# date: "2025-10-26"
-publishDate: "2025-09-22"
+date: "2026-05-04"
+publishDate: "2026-01-01"
 links:
   - type: site
-    url: https://github.com/pandas-dev/pandas
+    url: https://adum.fr/script/catalogue.pl?mod=3739719&site=USMB
+    name: "Registration for training on Adum"
 tags:
   - GIT
   - GIThub
 authors:
   - celmo
   - admin
+show_date: true
 ---
 
 ## Training Scope (4h)
