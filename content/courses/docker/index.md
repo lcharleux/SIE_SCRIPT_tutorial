@@ -49,7 +49,8 @@ By the end of the session, participants will be able to:
 
 A. Hardware requirements:
 - 64-bit processor
-- 8 GB system RAM recommended.
+- 8 GB system RAM recommended
+- At least 20 GB of free disk space
 - Enable hardware virtualization in BIOS/UEFI. For more information, see [Virtualization](https://docs.docker.com/desktop/troubleshoot-and-support/troubleshoot/topics/#docker-desktop-fails-due-to-virtualization-not-working).
 
 B. Software requirements:
