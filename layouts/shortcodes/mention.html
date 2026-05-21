@@ -1,0 +1,2 @@
+{{- $name := .Get 0 -}}
+{{- if eq $name "admin" -}}admin{{- else if eq $name "celmo" -}}celmo{{- else -}}{{ $name }}{{- end -}}

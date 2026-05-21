@@ -1,8 +1,5 @@
-module github.com/HugoBlox/hugo-blox-builder/starters/academic-cv
+module github.com/lcharleux/SIE_SCRIPT_tutorial
 
 go 1.19
 
-require (
-	github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify v1.1.2
-	github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind v0.7.0
-)
+require github.com/google/docsy v0.13.0

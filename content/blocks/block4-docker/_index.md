@@ -1,7 +1,10 @@
 ---
 title: "Block 4: Docker for Reproducible Research Environments"
+linkTitle: "Block 4: Docker"
 date: "2026-05-12"
 publishDate: "2026-01-01"
+weight: 40
+type: docs
 links:
   - type: site
     url: https://adum.fr/script/catalogue.pl?mod=3739713&site=USMB
@@ -14,6 +17,10 @@ authors:
   - celmo
   - admin
 show_date: true
+menu:
+  main:
+    parent: Blocks
+    weight: 20
 ---
 
 Containerization enables portable, isolated computational environments that improve the reproducibility, transparency, and longevity of research. This module introduces Docker for constructing, executing, and sharing environments that consistently reproduce analyses across machines and over time.
@@ -54,7 +61,7 @@ A. Hardware requirements:
 - Enable hardware virtualization in BIOS/UEFI. For more information, see [Virtualization](https://docs.docker.com/desktop/troubleshoot-and-support/troubleshoot/topics/#docker-desktop-fails-due-to-virtualization-not-working).
 
 B. Software requirements:
-- Git, [see the Git installation instructions](https://lcharleux.github.io/SIE_SCRIPT_tutorial/courses/git/#installation-instructions).
+- Git.
 - VS Code. Windows users should choose the System Installer version from the [VS Code download page](https://code.visualstudio.com/download).
 
 Make sure your computer meets these requirements before the session.
@@ -125,3 +132,22 @@ This message shows that your installation appears to be working correctly.
 The session combines a concise conceptual overview with guided, hands‑on exercises using research‑relevant examples. Templates are provided to facilitate adaptation to participants’ projects.
 
 <!--more-->
+
+
+## Course Materials
+
+- [Course overview](overview/)
+- [Phase 1: Create my first container with Docker](01-first-container/)
+- [Phase 2: Volumes and persistence](02-volumes-and-persistence/)
+- [Phase 3: Docker Compose](03-docker-compose/)
+- [Phase 4: Dev Containers](04-dev-container/)
+- [Project repository: reproducible scientific project](project-repository/)
+
+## Resources and Extras
+
+- [Docker commands cheatsheet](cheatsheets/docker-commands/)
+- [Docker Compose commands cheatsheet](cheatsheets/docker-compose-commands/)
+- [Bash to PowerShell cheatsheet](cheatsheets/bash-powershell/)
+- [Make and Docker](utils/make-and-docker/)
+- [Docker code snippets](utils/code-snippets/)
+- [Docker GUI forwarding guide](utils/docker-gui-forwarding/)

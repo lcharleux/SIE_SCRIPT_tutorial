@@ -1,61 +1,27 @@
-# SITE SETUP
-# Guide: https://docs.hugoblox.com/tutorial/
-# Documentation: https://docs.hugoblox.com/
-# This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
+description: "Course notes and practical tutorials for reproducible scientific computing."
+copyright: "L. Charleux and C. Elmo"
 
-# Appearance
-appearance:
-  mode: system
-  color: blue
+github_repo: "https://github.com/lcharleux/SIE_SCRIPT_tutorial"
 
-# SEO
-marketing:
-  seo:
-    site_type: Person
-    local_business_type: ''
-    org_name: ''
-    description: 'The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website.'
-    twitter: 'GetResearchDev'
-  analytics:
-    google_analytics: ''
-    baidu_tongji: ''
-    plausible: ''
-    fathom: ''
-    pirsch: ''
-  verification:
-    google: ''
-    baidu: ''
+ui:
+  breadcrumb_disable: false
+  footer_about_enable: false
+  navbar_logo: false
+  sidebar_menu_compact: false
+  sidebar_search_disable: false
+  sidebar_menu_foldable: true
+  showLightDarkModeMenu: true
 
-# Site header
-header:
-  navbar:
-    enable: true
-    block: 'navbar'
-    fixed_to_top: true
-    show_search: true
-    show_theme_chooser: true
-    logo:
-      text: "SCRIPT — Scientific Computing & Reproducible IT Practices and Tools"
-      filename: "logos/usmb.png"
+links:
+  user:
+    - name: "USMB"
+      url: "https://www.univ-smb.fr/"
+      icon: "fa-solid fa-building-columns"
+      desc: "Université Savoie Mont Blanc"
+  developer:
+    - name: "GitHub"
+      url: "https://github.com/lcharleux/SIE_SCRIPT_tutorial"
+      icon: "fab fa-github"
+      desc: "Source repository"
 
-# Site footer
-footer:
-  copyright:
-    notice: '© {year} L. Charleux and C. Elmo. This work is licensed under {license}'
-    license:
-      enable: true
-      allow_derivatives: false
-      share_alike: true
-      allow_commercial: false
-
-# Localization
-locale:
-  date_format: 'Jan 2, 2006'
-  time_format: '15:04'
-
-# Site features
-features:
-  math:
-    enable: false
-  privacy_pack:
-    enable: false
+offlineSearch: true

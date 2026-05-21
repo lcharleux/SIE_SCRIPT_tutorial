@@ -1,9 +1,9 @@
 {
-  "name": "hugo-blox-academic-cv-starter",
+  "name": "sie-script-tutorial-docs",
   "version": "1.0.0",
   "private": true,
   "packageManager": "pnpm@10.14.0",
-  "description": "Academic CV starter template for Hugo Blox with Tailwind CSS v4",
+  "description": "Documentation site for SCRIPT course tutorials",
   "scripts": {
     "dev": "hugo server --disableFastRender",
     "build": "hugo --minify"
@@ -13,5 +13,10 @@
     "@tailwindcss/typography": "^0.5.10",
     "mermaid": "^11.12.0",
     "tailwindcss": "^4.1.12"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.5.0",
+    "postcss": "^8.5.15",
+    "postcss-cli": "^11.0.1"
   }
 }
