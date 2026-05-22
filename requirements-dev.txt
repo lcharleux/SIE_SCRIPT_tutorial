@@ -1,0 +1,8 @@
+# Notebook-to-Hugo experiments. nb2hugo is currently unmaintained upstream,
+# so pin it while we evaluate whether it fits this site.
+nb2hugo==0.1.4
+jupyterlab
+notebook
+nbconvert
+ipykernel
+numpy
