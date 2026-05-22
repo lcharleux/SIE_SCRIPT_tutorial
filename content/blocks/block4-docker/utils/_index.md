@@ -1,5 +1,5 @@
 ---
-title: "A few ready-to-use utilities"
+title: "Resources"
 date: "2026-05-12"
 weight: 100
 type: docs
@@ -11,3 +11,5 @@ tags:
   - Dockerfile
 show_date: true
 ---
+
+You will find some handy utilites to help you out with Docker.

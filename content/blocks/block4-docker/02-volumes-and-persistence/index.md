@@ -1,5 +1,5 @@
 ---
-title: "Volumes and Persistence"
+title: "Step 2: Volumes and Persistence"
 date: "2026-05-12"
 weight: 30
 type: docs
@@ -58,7 +58,7 @@ We won’t use them in this course, but you will encounter them in Docker Compos
 
 - After mounting your volume, try to make some changes under the results folder on both side host and container.
 
-**Note (Linux users)**: You may encounter permission issues depending on the user inside the container. This is due to UID/GID differences between host and container.
+**Note (Linux users)**: If you installed Docker using Docker Engine installation, you may encounter permission issues depending on the user inside the container. This is due to UID/GID differences between host and container.
 
 ## Conclusion 
 

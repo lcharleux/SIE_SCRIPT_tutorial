@@ -65,10 +65,10 @@ You can find all the prerequisites needed to follow this training in the [Docker
 
 ### Outline 
 - Round-table introduction
-- Phase 1: [Create my first container with Docker](../01-first-container/)
-- Phase 2: [Volumes and persistence](../02-volumes-and-persistence/)
-- Phase 3: [Docker Compose](../03-docker-compose/)
-- Phase 4: [Dev Container](../04-dev-container/)
+- Step 1: [Create my first container with Docker](../01-first-container/)
+- Step 2: [Volumes and persistence](../02-volumes-and-persistence/)
+- Step 3: [Docker Compose](../03-docker-compose/)
+- Step 4: [Dev Container](../04-dev-container/)
 
 
 ### Challenge 

@@ -1,5 +1,5 @@
 ---
-title: "Docker Compose"
+title: "Step 3: Docker Compose"
 date: "2026-05-12"
 weight: 40
 type: docs
