@@ -1,0 +1,42 @@
+{
+  "name": "SIE SCRIPT Hugo",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": "..",
+    "args": {
+      "HUGO_VERSION": "0.150.0",
+      "DART_SASS_VERSION": "1.92.1"
+    }
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "22.18.0",
+      "pnpmVersion": "10.14.0"
+    },
+    "ghcr.io/devcontainers/features/go:1": {
+      "version": "1.25.1"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter",
+        "budparr.language-hugo-vscode",
+        "esbenp.prettier-vscode",
+        "openai.chatgpt"
+      ]
+    }
+  },
+  "forwardPorts": [
+    1313
+  ],
+  "portsAttributes": {
+    "1313": {
+      "label": "Hugo server",
+      "onAutoForward": "notify"
+    }
+  },
+  "postCreateCommand": "corepack enable && pnpm install --frozen-lockfile --force",
+  "remoteUser": "vscode"
+}

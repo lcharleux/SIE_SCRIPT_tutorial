@@ -1,0 +1,12 @@
+[
+{{- $pages := where .Site.RegularPages "Section" "blocks" -}}
+{{- $pages = $pages | append (where .Site.RegularPages "Section" "introduction") -}}
+{{- range $index, $page := $pages -}}
+  {{- if $index -}},{{- end }}
+  {
+    "title": {{ $page.Title | jsonify }},
+    "link": {{ $page.RelPermalink | jsonify }},
+    "content": {{ $page.Plain | jsonify }}
+  }
+{{- end }}
+]

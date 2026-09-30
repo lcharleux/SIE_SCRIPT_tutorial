@@ -1,0 +1,50 @@
+%%{init: {
+  "theme": "base",
+  "themeVariables": {
+    "fontFamily": "Inter, Arial, sans-serif",
+    "fontSize": "34px",
+    "primaryTextColor": "#1f2937",
+    "lineColor": "#64748b"
+  },
+  "flowchart": {
+    "curve": "basis",
+    "nodeSpacing": 48,
+    "rankSpacing": 68
+  }
+}}%%
+flowchart LR
+  start(("Start"))
+
+  subgraph foundation["Core research workflow"]
+    direction LR
+    latex["Block 1<br/>LaTeX<br/><span>write and structure documents</span>"]
+    git["Block 2<br/>Git<br/><span>track and collaborate</span>"]
+    python1["Block 3<br/>Python 1<br/><span>script and analyse data</span>"]
+  end
+
+  choose{"Need reproducible<br/>environments?"}
+
+  subgraph reproducibility["Reproducibility track"]
+    direction LR
+    docker["Block 4<br/>Docker<br/><span>package environments</span>"]
+    python2["Block 5<br/>Python 2<br/><span>scale and package code</span>"]
+  end
+
+  stop(("Ready"))
+  start --> latex --> git --> python1 --> choose
+  choose -- "stop here" --> stop
+  choose -- "continue" --> docker --> python2 --> stop
+
+  classDef startEnd fill:#0f172a,stroke:#0f172a,color:#ffffff,font-weight:bold;
+  classDef writing fill:#e0f2fe,stroke:#0284c7,color:#0c4a6e;
+  classDef versioning fill:#dcfce7,stroke:#16a34a,color:#14532d;
+  classDef coding fill:#fef3c7,stroke:#d97706,color:#78350f;
+  classDef containers fill:#ede9fe,stroke:#7c3aed,color:#3b0764;
+  classDef decision fill:#fff7ed,stroke:#ea580c,color:#7c2d12,font-weight:bold;
+
+  class start,stop startEnd;
+  class latex writing;
+  class git versioning;
+  class python1,python2 coding;
+  class docker containers;
+  class choose decision;
