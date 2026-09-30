@@ -23,6 +23,12 @@ menu:
     weight: 20
 ---
 
+{{% callout note %}}
+
+It is better if you have attended blocks 1 to 3 before starting this one.
+
+{{% /callout %}}
+
 Containerization enables portable, isolated computational environments that improve the reproducibility, transparency, and longevity of research. This module introduces Docker for constructing, executing, and sharing environments that consistently reproduce analyses across machines and over time.
 
 ## Learning outcomes

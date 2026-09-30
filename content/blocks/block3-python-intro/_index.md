@@ -26,7 +26,7 @@ It is better if you have attended blocks 1 and 2 before starting this one.
 {{% /callout %}}
 
 ## Introduction
-
+`
 You didn’t start a PhD to spend your days copying-pasting in Excel or manually renaming 200 files. You started it to do science — and Python is the tool that lets you focus on thinking, not clicking.
 
 What you’ll learn in Block 3 is:

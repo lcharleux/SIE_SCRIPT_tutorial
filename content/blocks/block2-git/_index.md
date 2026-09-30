@@ -28,13 +28,13 @@ We do not provide computers. You must bring a working computer on which you can 
 This training course requires several pieces of software to be installed on your machine, listed below.
 
 - Visual Studio Code, available here: [VS Code](https://code.visualstudio.com/download)
-
-    **Note**: if you are using Windows, make sure you install the **"System Installer"** version.
-
+  {{% callout note %}}
+  If you are using Windows, make sure you install the **"System Installer"** version.
+  {{% /callout %}}
 - A complete LaTeX installation. An installation guide is available here: [guide](../block1-latex/#prerequisites)
-
-    **Note**: if you are using Windows, make sure you install **Strawberry Perl** ([downloadable here](https://github.com/StrawberryPerl/Perl-Dist-Strawberry/releases/download/SP_54221_64bit/strawberry-perl-5.42.2.1-64bit.msi)).
-
+  {{% callout note %}}
+  If you are using Windows, make sure you install **Strawberry Perl** ([downloadable here](https://github.com/StrawberryPerl/Perl-Dist-Strawberry/releases/download/SP_54221_64bit/strawberry-perl-5.42.2.1-64bit.msi)).
+  {{% /callout %}}
 - Git. Our installation and configuration guide is available here: [guide](./#prerequisites).
 
 All of this software must be installed and configured.
